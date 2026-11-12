@@ -69,6 +69,12 @@ main p {
   margin-bottom: 1em;
 }
 
+main p.plain-text {
+  padding-left: 0;
+  border-left: 0;
+  margin: 0;
+}
+
 main.legal section p {
   padding-left: 0;
   border-left: 0;
