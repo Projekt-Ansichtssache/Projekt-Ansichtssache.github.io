@@ -1,5 +1,6 @@
-# is-a.bot Website
-The website for the is-a.bot subdomain service.
+# Projekt Ansichtssache Website
+
+The website for the Projekt Ansichtssache project.
 
 ---
 

@@ -1,42 +1,50 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!-- HTML Meta Tags -->
-        <title>Page Not Found | is-a.bot</title>
+    <!-- HTML Meta Tags -->
+    <title>Page Not Found | Projekt Ansichtssache</title>
 
-        <!-- Favicon -->
-        <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
 
-        <!-- Stylesheets -->
-        <link rel="stylesheet" href="/styles/main.css" />
-        <link rel="stylesheet" href="/styles/secondary.css" />
-        <link rel="stylesheet" href="https://cdn.hrsn.net/is-a-dev/website/fonts/Roboto/font.css" rel="prefetch" />
-        <link rel="stylesheet" href="https://cdn.hrsn.net/is-a-dev/website/fonts/UbuntuMono/font.css" rel="prefetch" />
-    </head>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/styles/main.css" />
+    <link rel="stylesheet" href="/styles/secondary.css" />
+  </head>
 
-    <body>
-        <h1>Error 404 - Page Not Found</h1>
-        
-        <p>The page you are looking for might have been removed or is temporarily unavailable.</p>
+  <body>
+    <h1>Error 404 - Page Not Found</h1>
 
-        <p>Go back to the <a href="/">homepage</a>.</p>
+    <p>
+      The page you are looking for might have been removed or is temporarily
+      unavailable.
+    </p>
 
-        <script async type="text/javascript"
-            src="https://cdn.carbonads.com/carbon.js?serve=CW7DE2JU&placement=is-adev&format=cover"
-            id="_carbonads_js"></script>
-    </body>
+    <p>Go back to the <a href="/">homepage</a>.</p>
 
-    <script>
-        const path = window.location.pathname;
-        const search = window.location.search;
-        const hash = window.location.hash;
+    <footer>
+      <p>
+        &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        Projekt Ansichtssache. All rights reserved.
+        <br />
+        A project by students of Gymnasium Oesede.
+        <br />
+        <a href="/imprint.html">Impressum</a>
+        ·
+        <a href="/privacy.html">Datenschutz</a>
+      </p>
+    </footer>
+  </body>
 
-        if (path.startsWith("/docs/")) {
-            const target = "https://docs.is-a.dev" + path.replace(/^\/docs/, '') + search + hash;
-            window.location = target;
-        }
-    </script>
+  <script>
+    const path = window.location.pathname;
+    const search = window.location.search;
+    const hash = window.location.hash;
+  </script>
 </html>
